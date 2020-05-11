@@ -1,3 +1,3 @@
-# bradleyherctt.github.io
+# This site is still under construction...
 
-This is where I'll practice uploading sites.
+I plan to put my main GitHub site here. :)
