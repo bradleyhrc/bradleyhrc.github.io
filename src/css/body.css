@@ -13,10 +13,11 @@ body {
 }
 
 /* --- NAVIGATION BAR --- */
-
+/*
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #251667;
 }
+*/
 
 #mainNav {
   background-color: white;
@@ -29,8 +30,8 @@ body {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #69b3a2;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #c19434 /*#69b3a2*/;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -39,14 +40,19 @@ body {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: black;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #69b3a2;
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #c19434 /*#69b3a2*/;
+  background-color: transparent;
+  border-bottom: 3px solid #c19434 /*#69b3a2*/;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #c19434 /*#69b3a2*/;
   background-color: white;
-  border-bottom: 3px solid #69b3a2;
+  border-bottom: 3px solid #c19434 /*#69b3a2*/;
 }
 
 @media (min-width: 992px) {
@@ -58,16 +64,18 @@ body {
     transition: padding-top 0.3s, padding-bottom 0.3s;
     background-color: transparent;
   }
-
+  /*
   #mainNav .navbar-brand {
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
+  */
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
+  /*
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
@@ -78,4 +86,26 @@ body {
     font-size: 1.25em;
     padding: 12px 0;
   }
+  */
+}
+
+/* HOME */
+
+.home {
+  text-align: center;
+  color: black;
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* PARTICLES JS */
+#particles-js{
+  width: 100%;
+  height: 800px;
+  background-color: white;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
