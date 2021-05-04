@@ -89,13 +89,31 @@ body {
   */
 }
 
-/* HOME */
+/* HOME PAGE */
 
 .home {
   text-align: center;
   color: black;
   position: relative;
   overflow: hidden;
+}
+
+.home-text {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-2em, -55%);
+  max-width: 800px;
+  padding: 2em 3em;
+  text-align: center;
+}
+
+#my-name {
+  font-family: 'Playfair Display', serif;
+  display: inline;
+  font-size: 84px;
+  font-weight: 600;
 }
 
 
