@@ -20,7 +20,7 @@ body {
 */
 
 #mainNav {
-  background-color: white;
+  background-color: transparent;
 }
 
 #mainNav .navbar-toggler {
@@ -30,7 +30,7 @@ body {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #c19434 /*#69b3a2*/;
+  background-color: #c19434;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
