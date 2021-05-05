@@ -140,11 +140,18 @@ body {
   color: #c19434;
 }
 
+.intro-text {
+  color: black;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 30px;
+}
+
 /* PARTICLES JS */
 
 #particles-js{
   width: 100%;
-  height: 800px;
+  height: 810px;
   background-color: white;
   background-image: url('');
   background-size: cover;
