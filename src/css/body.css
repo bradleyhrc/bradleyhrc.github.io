@@ -99,8 +99,6 @@ body {
   margin-bottom: 25px;
 }
 
-
-
 .home-text {
   color: #0d0d0d;
   position: absolute;
@@ -116,6 +114,12 @@ body {
   margin-bottom: 25px;
 }
 
+@media (min-width: 800px) {
+  .home-text {
+    min-width: 700px;
+  }
+}
+
 #first-name {
   color: black;
   font-size: 72px;
@@ -126,6 +130,15 @@ body {
   font-size: 60px;
   font-weight: 600;
   margin-bottom: 25px;
+}
+
+@media (max-width: 800px) {
+  #last-name {
+    font-size: 32px;
+  }
+  .home-text {
+    padding: 2em 0.5em;
+  }
 }
 
 /* Social buttons */
