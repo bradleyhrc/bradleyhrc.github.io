@@ -62,7 +62,7 @@ body {
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
-    background-color: transparent;
+    background-color: white;
   }
   /*
   #mainNav .navbar-brand {
@@ -133,11 +133,11 @@ body {
 }
 
 @media (max-width: 800px) {
-  #last-name {
-    font-size: 28px;
-  }
   .home-text {
     padding: 2em 0em;
+  }
+  #last-name {
+    font-size: 28px;
   }
 }
 
