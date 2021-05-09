@@ -188,3 +188,20 @@ body {
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+
+/* About Me */
+
+.about-section {
+  margin: 150px;
+}
+
+.about-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.about-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
