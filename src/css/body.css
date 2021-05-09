@@ -214,3 +214,17 @@ body {
 .i-am-item {
   margin: 10px;
 }
+
+@media (max-width: 1199px) {
+  #pfp {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 991px) {
+  #pfp {
+    margin-top: auto;
+    margin-bottom: 30px;
+    max-width: 90%;
+  }
+}
