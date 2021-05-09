@@ -192,7 +192,7 @@ body {
 /* About Me */
 
 .about-section {
-  margin: 150px;
+  margin: 100px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -205,4 +205,12 @@ body {
 .about-text {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+}
+
+.i-am {
+  max-width: 650px;
+}
+
+.i-am-item {
+  margin: 10px;
 }
