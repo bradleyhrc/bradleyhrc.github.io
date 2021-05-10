@@ -299,8 +299,8 @@ time {
   font-weight: bold;
   margin-bottom: 8px;
   font-family: 'Playfair Display', serif;
-  font-size: 28px;
-  font-weight: 800;
+  font-size: 26px;
+  font-weight: 700;
 }
 
 /* Animation for timeline */
@@ -320,14 +320,23 @@ time {
   opacity: 0;
   transition: all .5s ease-in-out;
   font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
 }
 
 .timeline ul li:nth-child(odd) div {
   transform: translate3d(200px, 0, 0);
 }
 
-.timeline ul li:nth-child(even) div {
-  transform: translate3d(-200px, 0, 0);
+@media screen and (min-width: 601px) {
+  .timeline ul li:nth-child(even) div {
+    transform: translate3d(-200px, 0, 0);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li:nth-child(even) div {
+    transform: translate3d(200px, 0, 0);
+  }
 }
 
 .timeline ul li.in-view div {
@@ -338,7 +347,7 @@ time {
 
 /* Timeline browser compatibility */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 960px) {
   .timeline ul li div {
     width: 250px;
   }
@@ -351,7 +360,7 @@ time {
 
 @media screen and (max-width: 600px) {
   .timeline ul li {
-    margin-left: 30px;
+    margin-left: 20px;
   }
 
   .timeline ul li div {
