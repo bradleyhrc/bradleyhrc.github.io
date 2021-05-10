@@ -1,3 +1,5 @@
+/* This JavaScript file makes the navbar and scrolling more responsive */
+
 (function($) {
   "use strict";
 
