@@ -1,8 +1,10 @@
-// https://www.w3schools.com/bootstrap/bootstrap_ref_js_scrollspy.asp
+(function($) {
+  "use strict";
 
-$(document).ready(function(){
-  // Add scrollspy to body
-  $('body').scrollspy({target: ".navbar"});
+  // Adds scrollspy to body
+  $('body').scrollspy({
+    target: ".navbar"
+  });
 
   // Add smooth scrolling on all links inside the navbar
   $("#navbarResponsive a").on('click', function(event) {
@@ -24,5 +26,25 @@ $(document).ready(function(){
         window.location.hash = hash;
       });
     }
+
   });
-});
+
+  // Closes responsive menu when a link is clicked
+  $('.navbar-collapse').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+  // Collapse Navbar
+  var navbarCollapse = function() {
+    if ($("#mainNav").offset().top > 600) {
+      $("#mainNav").addClass("navbar-shrink");
+    } else {
+      $("#mainNav").removeClass("navbar-shrink");
+    }
+  };
+  // Collapse now if page is not at top
+  navbarCollapse();
+  // Collapse the navbar when page is scrolled
+  $(window).scroll(navbarCollapse);
+
+})(jQuery);

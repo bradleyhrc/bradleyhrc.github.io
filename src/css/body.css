@@ -46,7 +46,7 @@ body {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: black;
-  background-color: white;
+  background-color: transparent;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
@@ -98,12 +98,12 @@ body {
     padding-bottom: 0;
     background-color: white;
   }
-  /*
+
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
   }
-  */
+
 }
 
 /* HOME PAGE */
