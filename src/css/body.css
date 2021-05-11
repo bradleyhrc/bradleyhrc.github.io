@@ -231,6 +231,10 @@ body {
 
 /* Experience - Timeline */
 
+#experience {
+  padding: 100px;
+}
+
 .timeline ul {
   padding: 50px 0;
 }
