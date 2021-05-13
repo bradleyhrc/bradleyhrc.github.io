@@ -396,3 +396,9 @@ footer {
 #copyright {
   font-family: 'Montserrat', sans-serif;
 }
+
+@media screen and (max-width: 600px) {
+  footer {
+    padding: 50px;
+  }
+}
