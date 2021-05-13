@@ -191,12 +191,12 @@ body {
 
 /* About Me */
 
-.about-section, #experience {
+.about-section, .experience-section {
   padding: 100px;
   font-family: 'Montserrat', sans-serif;
 }
 
-.about-title {
+.about-title, .experience-title {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
   font-weight: 700;
@@ -231,8 +231,16 @@ body {
 
 /* Experience - Timeline */
 
+.experience-section {
+  padding-bottom: 50px;
+}
+
+.timeline {
+  margin-bottom: 100px;
+}
+
 .timeline ul {
-  padding: 50px 0;
+  padding: 0px 0;
 }
 
 .timeline ul li {
@@ -305,6 +313,11 @@ time {
 
 /* Animation for timeline */
 
+.timeline {
+  padding: 100px;
+  padding-top: 0px;
+}
+
 .timeline ul li::after {
   transition: background .5s ease-in-out;
 }
@@ -359,6 +372,10 @@ time {
 }
 
 @media screen and (max-width: 600px) {
+  #ex {
+    text-align: left;
+  }
+
   .timeline ul li {
     margin-left: -60px;
   }
