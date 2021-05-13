@@ -385,3 +385,14 @@ time {
     border-color: transparent;
   }
 }
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 75px;
+}
+
+#copyright {
+  font-family: 'Montserrat', sans-serif;
+}
