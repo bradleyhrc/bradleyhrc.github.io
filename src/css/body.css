@@ -392,6 +392,7 @@ time {
 footer {
   text-align: center;
   padding: 75px;
+  padding-bottom: 25px;
 }
 
 #copyright {
@@ -401,5 +402,6 @@ footer {
 @media screen and (max-width: 600px) {
   footer {
     padding: 50px;
+    padding-bottom: 25px;
   }
 }
