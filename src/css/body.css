@@ -226,11 +226,12 @@ body {
 
 /* Experience - Timeline */
 .experience-section {
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .timeline {
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 .timeline ul {
@@ -309,6 +310,7 @@ time {
 .timeline {
   padding: 100px;
   padding-top: 0px;
+  padding-bottom: 50px;
 }
 
 .timeline ul li::after {
