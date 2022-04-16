@@ -24,7 +24,7 @@
       font-family: "Open Sans";
       opacity: 0.6;
       transition: all 0.2s ease-in-out;
-      font-size: 14px;
+      font-size: 15px;
       background-color: transparent;
       outline: none;
       border: 0px;
@@ -33,13 +33,13 @@
         opacity: 1;
       }
       @include media(">=phone", "<lgphone") {
-        font-size: 9px;
+        font-size: 13px;
       }
       @include media(">=lgphone", "<tablet") {
-        font-size: 10px;
+        font-size: 14px;
       }
       @include media(">=tablet", "<desktop") {
-        font-size: 12px;
+        font-size: 14px;
       }
     }
     .active {
