@@ -14,10 +14,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="BRADLEY HC"/>
     <Header></Header>
+    <About></About>
   </Layout>
 )
 // <Work></Work>
-// <About></About>
 // <Skills></Skills>
 // <Promotion></Promotion>
 // <Footer></Footer>

@@ -11,6 +11,7 @@ import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import profile from "./images/headshot.png"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -26,7 +27,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "I'm a trilingual student who enjoys programming, data analysis, and mathematics! I'm constantly learning and improving myself.",
+    "I'm a trilingual student who enjoys programming, data science, and mathematics!",
 
   //Contact Email
   contactEmail: "b2herrer@uwaterloo.ca",
@@ -117,7 +118,8 @@ export default {
   aboutParaThree:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    profile,
+  //"https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
 
   //   End About Section ---------------------
 
