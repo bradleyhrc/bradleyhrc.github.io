@@ -4867,8 +4867,8 @@ engine.io-parser@~2.2.0:
     blob "0.0.5"
     has-binary2 "~1.0.2"
 
-engine.io@~4.0.0:
-  version "4.0.0"
+engine.io@~4.1.2:
+  version "4.1.2"
   resolved "https://registry.yarnpkg.com/engine.io/-/engine.io-4.0.0.tgz#8fc84ee00388e3e228645e0a7d3dfaeed5bd122c"
   integrity sha512-b4Q85dFkGw+TqgytGPrGgACRUhsdKc9S9ErRAXpPGy/CXKs4tYoHDkvIRdsseAF7NjfVwjRFIn6KTnbw7LwJZg==
   dependencies:
