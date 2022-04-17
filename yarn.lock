@@ -2988,9 +2988,9 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.12.2, browserslist@^4.14.5, browserslist@^4.14.6:
-  version "4.14.7"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.14.7.tgz#c071c1b3622c1c2e790799a37bb09473a4351cb6"
+browserslist@^4.16.5:
+  version "4.16.5"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.5.tgz#c071c1b3622c1c2e790799a37bb09473a4351cb6"
   integrity sha512-BSVRLCeG3Xt/j/1cCGj1019Wbty0H+Yvu2AOuZSuoaUWn3RatbL33Cxk+Q4jRMRAbOm0p7SLravLjpnT6s0vzQ==
   dependencies:
     caniuse-lite "^1.0.30001157"
@@ -7024,14 +7024,9 @@ homedir-polyfill@^1.0.1:
   dependencies:
     parse-passwd "^1.0.0"
 
-hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
-
-hosted-git-info@^3.0.6:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-3.0.7.tgz#a30727385ea85acfcee94e0aad9e368c792e036c"
+hosted-git-info@^3.0.8:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-3.0.8.tgz#a30727385ea85acfcee94e0aad9e368c792e036c"
   integrity sha512-fWqc0IcuXs+BmE9orLDyVykAG9GJtGLGuZAAqgcckPgv5xad4AcXGIv8galtQvlwutxSlaMcdw7BUtq2EIvqCQ==
   dependencies:
     lru-cache "^6.0.0"
@@ -10806,9 +10801,9 @@ rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dev-utils@^4.2.3:
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-4.2.3.tgz#5b42d9ea58d5e9e017a2f57a40a8af408a3a46fb"
+react-dev-utils@^11.0.4:
+  version "11.0.4"
+  resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.4.tgz#5b42d9ea58d5e9e017a2f57a40a8af408a3a46fb"
   integrity sha512-uvmkwl5uMexCmC0GUv1XGQP0YjfYePJufGg4YYiukhqk2vN1tQxwWJIBERqhOmSi80cppZg8mZnPP/kOMf1sUQ==
   dependencies:
     address "1.0.3"
@@ -11906,9 +11901,9 @@ socket.io-parser@~3.4.0:
     debug "~4.1.0"
     isarray "2.0.1"
 
-socket.io@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/socket.io/-/socket.io-2.3.0.tgz#cd762ed6a4faeca59bc1f3e243c0969311eb73fb"
+socket.io@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/socket.io/-/socket.io-2.4.0.tgz#cd762ed6a4faeca59bc1f3e243c0969311eb73fb"
   integrity sha512-2A892lrj0GcgR/9Qk81EaY2gYhCBxurV0PfmmESO6p27QPrUK1J3zdns+5QPqvUYK2q657nSj0guoIil9+7eFg==
   dependencies:
     debug "~4.1.0"
