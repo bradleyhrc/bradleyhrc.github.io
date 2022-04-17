@@ -71,20 +71,29 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    height: 380px;//auto !important;
+    height: 500px;//auto !important;
     @include media(">=phone", "<lgphone") {
       width: 100%;
+      margin-left: 0px;
     }
     @include media(">=lgphone", "<tablet") {
       width: 100%;
+      margin-left: 0px;
     }
     @include media(">=tablet", "<desktop") {
       width: 100%;
+      margin-left: 0px;
     }
     
   }
   img {
-    height: 380px;
+    height: 500px;
+    @include media(">=phone", "<lgphone") {
+      height: 350px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      height: 425px;
+    }
   }
 
 }
