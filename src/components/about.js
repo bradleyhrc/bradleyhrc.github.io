@@ -26,7 +26,7 @@ const About = () => {
                 Interested in <b>Data Science</b>, immersing myself in the field through research, work experience, and personal projects
                 </li>
                 <li>
-                Trilingual; I speak English, French, and Spanish all fluently!
+                Trilingual: I speak <b>English</b>, <b>French</b>, & <b>Spanish</b> all fluently!
                 </li>
                 <li>
                 A <b>Licensed General Insurance Agent</b>, with knowledge in a variety of financial services and insurance products

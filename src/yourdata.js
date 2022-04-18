@@ -27,7 +27,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "I'm a trilingual student who enjoys programming, data science, and mathematics!",
+    "I'm a trilingual student who enjoys programming, data science, & mathematics!",
 
   //Contact Email
   contactEmail: "b2herrer@uwaterloo.ca",

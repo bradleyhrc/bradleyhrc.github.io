@@ -1,6 +1,7 @@
 .about-section {
   width: 80vw;
   margin-bottom: 10vh;
+  line-height: 25px;
   //margin-top: 10vh;
   display: flex;
   justify-content: space-between;
@@ -94,6 +95,7 @@
     @include media(">=lgphone", "<tablet") {
       height: 425px;
     }
+    border-radius: 24px;
   }
 
 }
