@@ -1,10 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "react-portfolio-template",
   "private": true,
-  "description": "Welcome to my website!",
+  "description": "Portfolio Template For Awesome Peoples",
   "version": "0.1.0",
-  "homepage": "https://www.bradleyhc.com",
-  "author": "Bradley Herrera Contreras <bradleyhrct@gmail.com>",
+  "author": "Chetan Verma <hello@chetanverma.com>",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
@@ -16,17 +15,16 @@
     "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-source-filesystem": "^2.5.0",
     "gatsby-transformer-sharp": "^2.6.0",
-    "minimist": "^1.2.6",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.1",
-    "sass": "^1.50.0"
+    "sass": "^1.50.0",
+    "minimist": "^1.2.6"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3",
     "prettier": "2.1.2"
   },
   "keywords": [
@@ -34,8 +32,6 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
