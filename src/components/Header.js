@@ -32,7 +32,7 @@ const Header = () => {
               href="Resume"
               className="primary-btn"
             >
-            View My Resume
+            View My Resume!
             </a>
           </Fade>
         </div>
