@@ -29,7 +29,7 @@ const Header = () => {
           </Fade>
           <Fade bottom>
             <a
-              //href={Resume} 
+              href="Resume"
               className="primary-btn"
             >
             View My Resume
