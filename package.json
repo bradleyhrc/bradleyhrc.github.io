@@ -1,9 +1,10 @@
 {
   "name": "bradley-hc-portfolio",
   "private": true,
-  "description": "My Portfolio!",
+  "description": "Welcome to my portfolio website!",
   "version": "0.1.0",
-  "author": "Bradley Herrera Contreras <b2herrer@uwaterloo.ca>",
+  "author": "Bradley Herrera Contreras",
+  "homepage": "https://bradleyhrc.github.io/bradleyhrc.github.io",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
@@ -15,7 +16,7 @@
     "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-source-filesystem": "^2.5.0",
     "gatsby-transformer-sharp": "^2.6.0",
-    "minimist": "^1.2.6",
+    "minimist": ">=1.2.6",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
