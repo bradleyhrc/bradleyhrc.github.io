@@ -1,9 +1,9 @@
 {
-  "name": "react-portfolio-template",
+  "name": "bradley-hc-portfolio",
   "private": true,
-  "description": "Portfolio Template For Awesome Peoples",
+  "description": "My Portfolio!",
   "version": "0.1.0",
-  "author": "Chetan Verma <hello@chetanverma.com>",
+  "author": "Bradley Herrera Contreras <b2herrer@uwaterloo.ca>",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
