@@ -18,24 +18,26 @@ const About = () => {
               <br></br>
               <br></br>
               I am...
-              <ul className="about-list">
-                <li>
-                Studying <b>Mathematics</b> at the University of Waterloo & <b>Business Administration</b> at Wilfrid Laurier University
-                </li>
-                <li>
-                Interested in <b>Data Science</b>, immersing myself in the field through research, work experience, and personal projects
-                </li>
-                <li>
-                Trilingual: I speak <b>English</b>, <b>French</b>, & <b>Spanish</b> all fluently!
-                </li>
-                <li>
-                A <b>Licensed General Insurance Agent</b>, with knowledge in a variety of financial services and insurance products
-                </li>
-              </ul>
+              <Fade bottom cascade>
+                <ul className="about-list">
+                  <li>
+                  Studying <b>Mathematics</b> at the University of Waterloo & <b>Business Administration</b> at Wilfrid Laurier University
+                  </li>
+                  <li>
+                  Interested in <b>Data Science</b>, immersing myself in the field through research, work experience, and personal projects
+                  </li>
+                  <li>
+                  Trilingual: I speak <b>English</b>, <b>French</b>, & <b>Spanish</b> all fluently!
+                  </li>
+                  <li>
+                  A <b>Licensed General Insurance Agent</b>, with knowledge in a variety of financial services and insurance products
+                  </li>
+                </ul>
+              </Fade>
             </p>
           </div>
           <div className="image-wrapper">
-            <img id="profile" src={data.aboutImage} alt="headshot" ></img>
+              <img id="profile" src={data.aboutImage} alt="headshot" ></img>
           </div>
         </div>
       </div>

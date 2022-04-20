@@ -9,12 +9,14 @@ import About from "../components/about"
 import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
+import Experience from "../components/experience"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="BRADLEY HC"/>
     <Header></Header>
     <About></About>
+    <Experience></Experience>
   </Layout>
 )
 // <Work></Work>

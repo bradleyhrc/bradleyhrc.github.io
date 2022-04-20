@@ -23,7 +23,8 @@
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.1",
-    "sass": "^1.50.0"
+    "sass": "^1.50.0",
+    "vertical-timeline-component-for-react": "^1.0.7"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
@@ -34,7 +35,7 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master", 
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
