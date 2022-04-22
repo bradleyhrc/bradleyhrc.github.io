@@ -34,7 +34,7 @@ const Header = () => {
             >
             View My Resume!
             </a>
-          </Fade>
+            </Fade>
         </div>
       </div>
     </div>

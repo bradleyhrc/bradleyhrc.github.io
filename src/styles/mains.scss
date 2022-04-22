@@ -13,6 +13,7 @@
 @import "./skills.scss";
 @import "./promotion.scss";
 @import "./footer.scss";
+@import "./experience.scss";
 
 * {
   font-family: "Montserrat";
@@ -46,7 +47,7 @@ body {
   background-color: black;
   color: white;
   border: 0px;
-  transition: all 0.2s ease-in-out;
+  //transition: all 2s ease-in-out;
   text-decoration: none;
   border-radius: 10px;
   cursor: pointer;
