@@ -6,28 +6,10 @@
   @include media(">=lgphone", "<tablet") {
     width: 80vw;
   }
-
-  // margin-top: 10vh;
   display: flex;
   flex-direction: column;
-  margin-bottom: 10vh;
-  //line-height: 25px;
-  // align-items: center;
-  // text-align: center;
+  margin-bottom: 5vh;
   .content {
-    h1 {
-      font-size: 3rem;
-      //line-height: 20px;
-      text-align: left;
-      margin-bottom: 0;
-      /*
-      @include media(">=phone", "<lgphone") {
-        font-size: 23px;
-      }
-      @include media(">=lgphone", "<tablet") {
-        font-size: 23px;
-      }*/
-    }
     h2 {
       font-size: 17px;
       font-weight: 400;
@@ -94,7 +76,7 @@
     .timeline-item-date {
       @include media(">=phone", "<lgphone") {
         height: 30px;
-        width: 80%;
+        width: 90%;
   
       }
       @include media(">=lgphone", "<tablet") {
