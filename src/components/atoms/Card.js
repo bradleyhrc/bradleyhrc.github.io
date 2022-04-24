@@ -4,8 +4,8 @@ import Fade from "react-reveal/Fade"
 const Card = ({heading, techs, paragraph, imgUrl, projectLink}) => {
   return (
     <div className="card">
-      <a href={projectLink ? projectLink : "#"} target="_blank" >
-        <img className="cardImg" src={imgUrl}></img>
+      <a href={projectLink ? projectLink : "#"} target="_blank" rel="noreferrer">
+        <img className="cardImg" src={imgUrl} alt="card"></img>
       </a>
       <Fade bottom cascade>
       <div className="content">

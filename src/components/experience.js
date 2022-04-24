@@ -1,6 +1,5 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import data from "../yourdata"
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
 const Experience = () => {

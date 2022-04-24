@@ -1,7 +1,7 @@
 .work-wrapper {
   width: 80vw;
   //margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-bottom: 3vh;
   @include media(">=phone", "<lgphone") {
     width: 80vw;
   }
@@ -24,7 +24,7 @@
       text-align: center;
     }
   }
-  
+
   .grid {
     display: grid;
     margin-top: 20px;

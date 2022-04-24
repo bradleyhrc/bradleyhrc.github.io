@@ -51,16 +51,16 @@
       }
     }
     p {
-      font-size: 14px;
+      font-size: 15px;
       line-height: 18px;
       color: black;
       margin-bottom: 5px;
       @include media(">=phone", "<lgphone") {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 14px;
       }
       @include media(">=lgphone", "<tablet") {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 16px;
       }
     }
