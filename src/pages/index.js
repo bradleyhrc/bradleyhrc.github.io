@@ -13,7 +13,7 @@ import Experience from "../components/experience"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="BRADLEY HC"/>
+    <SEO title="Bradley HC"/>
     <Header></Header>
     <About></About>
     <Experience></Experience>

@@ -14,14 +14,14 @@ const About = () => {
               <h1>About me</h1>
             </Fade>
             <p>
-              Thank you for visiting my website! I'm passionate about mathematics, and I'm learning data science as a tool to help others and create solutions.
+              Thank you for visiting my website! I'm passionate about computer science, and I'm learning data science as a tool to help others and create solutions.
               <br></br>
               <br></br>
               I am...
               <Fade bottom cascade>
                 <ul className="about-list">
                   <li>
-                  Studying <b>Mathematics</b> at the University of Waterloo & <b>Business Administration</b> at Wilfrid Laurier University
+                  Studying <b>Computer Science</b> at the University of Waterloo & <b>Business Administration</b> at Wilfrid Laurier University
                   </li>
                   <li>
                   Interested in <b>Data Science</b>, immersing myself in the field through research, work experience, and personal projects
