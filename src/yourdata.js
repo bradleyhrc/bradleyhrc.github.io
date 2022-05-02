@@ -52,7 +52,7 @@ export default {
       para:
         "Redesigned my personal website using React JS & Gatsby to deploy a simple, beautiful, & fast website.",
       imageSrc: portfolio,
-      url: "https://www.bradleyhc.com",
+      url: "https://github.com/bradleyhrc/bradleyhrc.github.io",
     },
   ],
 
