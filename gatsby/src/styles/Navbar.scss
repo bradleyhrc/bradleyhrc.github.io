@@ -1,0 +1,40 @@
+
+.nav-wrap {
+    //background-color: aqua;
+    margin: 20px 10px 10px 10px;
+    height: 60px;
+    font-size: 19px;
+    font-weight: 650;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    .sections-wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}
+
+.logo {
+    padding: 0 0px 0 0px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+.portfolio {
+    padding: 0 5px 0 25px;
+}
+
+.about, .experience {
+    padding: 0 25px 0 25px;
+}
+
+.portfolio, .about, .experience {
+    opacity: 70%;
+}

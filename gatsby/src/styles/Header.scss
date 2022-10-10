@@ -1,0 +1,40 @@
+.head-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+    .first-name, .last-name {
+        font-weight: 700;
+        line-height: 1.2;
+        opacity: 95%;
+    }
+
+    .first-name {
+        margin-top: 200px;
+        font-size: 80px;
+    }
+    .last-name {
+        font-size: 74px;
+    }
+    .description {
+        font-size: 16px;
+        font-weight: 600;
+        opacity: 70%;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+        background-color: black;
+        opacity: 87%;
+        border-radius: 15px;
+        height: 50px;
+        width: 180px;
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
