@@ -1,6 +1,5 @@
 
 .nav-wrap {
-    //background-color: aqua;
     margin: 20px 10px 10px 10px;
     height: 60px;
     font-size: 19px;
@@ -17,7 +16,6 @@
         align-items: center;
         justify-content: space-around;
     }
-
 }
 
 .logo {
@@ -37,4 +35,8 @@
 
 .portfolio, .about, .experience {
     opacity: 70%;
+}
+
+.portfolio:hover, .about:hover, .experience:hover {
+    opacity: 90%;
 }

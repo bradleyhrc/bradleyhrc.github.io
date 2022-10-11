@@ -1,0 +1,22 @@
+
+.vertical-wrap {
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.col {
+    list-style-type: none;
+    margin: 0 15px;
+
+    .icon {
+        width: 40px;
+        padding: 6px;
+        opacity: 70%;
+    }
+
+    .icon:hover {
+        opacity: 100%;
+    }
+}
+
+

@@ -9,6 +9,6 @@ module.exports = {
     `gatsby-plugin-smoothscroll`,
   ],
   siteMetadata: {
-    title: 'My page',
+    title: 'Bradley\'s Portfolio',
   },
 };

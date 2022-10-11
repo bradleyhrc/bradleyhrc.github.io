@@ -1,0 +1,30 @@
+
+.about-wrap {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .about-content {
+        margin-right: 65px;
+        max-width: 750px;
+    }
+
+    .image {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    img {
+        width: 350px;
+        border-radius: 25px;
+    }
+
+    li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
