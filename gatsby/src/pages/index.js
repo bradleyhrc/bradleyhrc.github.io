@@ -4,6 +4,7 @@ import Copyright from '../components/Copyright';
 import ResponsiveAppBar from '../components/Navbar';
 import Header from '../components/Header';
 import About from '../components/About';
+import Experience from '../components/Experience';
 
 import '../styles/global.scss';
 
@@ -13,6 +14,7 @@ export default function Index() {
       <ResponsiveAppBar></ResponsiveAppBar>
       <Header></Header>
       <About></About>
+      <Experience></Experience>
       <Copyright></Copyright>
     </Container>
   );

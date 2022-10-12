@@ -10,16 +10,19 @@
     "@emotion/react": "^11.10.4",
     "@emotion/server": "latest",
     "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
     "@mui/joy": "^5.0.0-alpha.48",
     "@mui/material": "latest",
     "gatsby": "latest",
     "gatsby-plugin-react-helmet": "latest",
     "gatsby-plugin-sass": "^5.24.0",
     "gatsby-plugin-smoothscroll": "^1.2.0",
+    "gatsby-plugin-styled-components": "^5.24.0",
     "react": "latest",
     "react-dom": "latest",
     "react-helmet": "latest",
-    "sass": "^1.55.0"
+    "sass": "^1.55.0",
+    "styled-components": "^5.3.6"
   },
   "scripts": {
     "develop": "gatsby develop",

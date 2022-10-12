@@ -1,14 +1,18 @@
 @charset "utf-8";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;550;600;650;700&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;450;500;550;600;650;700&family=Open+Sans&display=swap");
 
 // Components
 @import "./Navbar.scss";
 @import "./Header.scss";
 @import "./VerticalLinks.scss";
 @import "./About.scss";
+@import "./Experience.scss";
 
 * {
     font-family: 'Montserrat';
+}
+
+body {
     background-color: #fffdf8;
 }
 

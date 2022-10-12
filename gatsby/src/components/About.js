@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Container from '@mui/material/Container';
-import Photo from '../../public/static/bradleyhc.headshot.jpg';
 
 const About = () => {
     return (
@@ -17,7 +16,7 @@ const About = () => {
                     </ul>
                 </div>
                 <div className="image">
-                    <img src={Photo} alt="Portrait"></img>
+                    <img src="/static/bradleyhc.headshot.jpg" alt="Portrait"></img>
                 </div>
             </div>
         </Container>

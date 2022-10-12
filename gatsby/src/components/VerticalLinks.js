@@ -8,17 +8,17 @@ const VerticalLinks = () => {
         <div className="vertical-wrap">
             <ul className="col">
                 <li>
-                    <a href>
+                    <a href="https://www.linkedin.com/in/bradleyhc">
                         <img className="icon" src={Linkedin} alt="LinkedIn"></img>
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href="mailto:b2herrer@uwaterloo.ca">
                         <img className="icon" src={Email} alt="Email"></img>
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href="https://github.com/bradleyhrc">
                         <img className="icon" src={Github} alt="GitHub"></img>
                     </a>
                 </li>
