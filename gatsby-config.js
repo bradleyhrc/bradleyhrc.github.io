@@ -24,7 +24,7 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: 'Bradley\'s Portfolio',
+    title: 'Bradley Portfolio',
     description: 'Welcome to my portfolio website',
     image: 'src/images/bhc.png',
     siteUrl: 'https://www.bradleyhc.com'
