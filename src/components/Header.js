@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Link from './Link';
-import VerticalLinks from '../components/VerticalLinks';
+import VerticalLinks from './VerticalLinks';
 import Typography from '@mui/material/Typography';
 
 const Header = () => {

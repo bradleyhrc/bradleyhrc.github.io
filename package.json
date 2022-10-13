@@ -27,9 +27,13 @@
     "styled-components": "^5.3.6"
   },
   "scripts": {
+    "deploy": "gatsby build && gh-pages -d public",
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
