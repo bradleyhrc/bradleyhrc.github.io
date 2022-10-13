@@ -1,8 +1,14 @@
+import dsc_logo from '/src/images/dsc.png';
+import desjardins from '/src/images/desjardins.jpg';
+import project1 from '/src/images/dsc_website.png';
+import project2 from '/src/images/dashboard.png';
+import project3 from '/src/images/personal.png';
+
 export default {
     history: [
     {
         date: "May 2022 - Present",
-        logo: "/static/dsc.png",
+        logo: dsc_logo,
         company: "Data Science Club",
         position: "Lead Developer",
         preview: "Founded the Development Team.",
@@ -10,7 +16,7 @@ export default {
     },
     {
         date: "Jan. 2022 - Apr. 2022",
-        logo: "/static/desjardins.jpg",
+        logo: desjardins,
         company: "Desjardins",
         position: "Performance Analyst",
         preview: "Reporting intelligence from big data.",
@@ -18,7 +24,7 @@ export default {
     },
     {
         date: "Aug. 2021 - Jan. 2022",
-        logo: "/static/dsc.png",
+        logo: dsc_logo,
         company: "Data Science Club",
         position: "Vice President of Finance",
         preview: "Directed club finances.",
@@ -26,7 +32,7 @@ export default {
     },
     {
         date: "Jul. 2018 - Aug. 2021",
-        logo: "/static/desjardins.jpg",
+        logo: desjardins,
         company: "Desjardins",
         position: "Office Associate",
         preview: "Managed over $4,000 in revenue.",
@@ -39,21 +45,21 @@ export default {
             skills: ["Next.js", "React", "Git", "JavaScript", "API"],
             description: "Built the official Data Science Club website at the University of Waterloo, leading a team of 5 developers.",
             link: "https://github.com/uw-datasci/uwdsc-website",
-            screenshot: "/static/dsc_website.png"
+            screenshot: project1,
         },
         {
             title: "Glucose Visualization Dashboard",
             skills: ["Python", "Pandas", "Panel", "Jupyter", "Heroku"],
             description: "Created an interactive dashboard visualizing glucose health data. Automated data processing and built in a Jupyter notebook.",
             link: "https://github.com/bradleyhrc/glucose-dashboard",
-            screenshot: "/static/dashboard.png"
+            screenshot: project2,
         },
         {
             title: "Portfolio Website",
             skills: ["React", "Gatsby", "Material UI", "SASS"],
             description: "Updated website using Material UI and SASS. React application made static using Gatsby.",
             link: "https://github.com/bradleyhrc/bradleyhrc.github.io",
-            screenshot: "/static/personal.png"
+            screenshot: project3,
         },
     ]
 }

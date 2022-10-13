@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Container from '@mui/material/Container';
 import Grid from "@mui/material/Grid";
+import profile from '../images/bradleyhc.headshot.jpg';
 
 const About = () => {
     return (
@@ -8,7 +9,7 @@ const About = () => {
             <Grid container justifyContent="center" direction={{md: "row-reverse", lg:"row-reverse"}} alignItems="stretch" spacing={2}>
                 <Grid className="image" item xs={9} sm={8} md lg>
                     <div className="other-image">
-                        <img className="meow" src="/static/bradleyhc.headshot.jpg" alt="Portrait"></img>
+                        <img className="meow" src={profile} alt="Portrait"></img>
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={12} md={7} lg={8}>

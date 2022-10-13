@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Linkedin from '../../public/static/linkedin.png';
-import Email from '../../public/static/mail.png';
-import Github from '../../public/static/github.png';
+import Linkedin from '../images/linkedin.png';
+import Email from '../images/mail.png';
+import Github from '../images/github.png';
 
 const VerticalLinks = () => {
     return (
