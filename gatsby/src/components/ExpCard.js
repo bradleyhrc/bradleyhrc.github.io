@@ -37,7 +37,7 @@ export default function ExpCard(props) {
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }} onClick={handleExpandClick}>
+    <Card className="card"  onClick={handleExpandClick}>
       <CardContent>
         <Typography className="date" variant="body2" color="text.secondary">
           May - Aug. 2022
@@ -56,7 +56,7 @@ export default function ExpCard(props) {
             
         <Typography className="card-txt">{props.preview}</Typography>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
-            <Typography className="card-txt">{props.description}</Typography>
+            <Typography className="card-txt"><br></br>{props.description}</Typography>
         </Collapse>
 
       </CardContent>

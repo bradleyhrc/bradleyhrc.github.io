@@ -1,3 +1,7 @@
+.card {
+    cursor: pointer;
+    width: 100%;
+}
 
 .date, .company, .position, .logo, .card-txt {
     font-family: "Montserrat";
@@ -12,8 +16,8 @@
 
 .company {
     font-weight: 550;
-    opacity: 85%;
-    font-size: 28px;
+    opacity: 80%;
+    font-size: 22px;
     margin-bottom: 2px;
 }
 
@@ -25,7 +29,7 @@
 }
 
 .logo {
-    max-width: 24px;
+    width: 23px;
     border-radius: 5px;
     margin-right: 8px;
 }
