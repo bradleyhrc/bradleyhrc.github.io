@@ -1,0 +1,34 @@
+
+.vertical-wrap {
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 500px) {
+    .vertical-wrap {
+        margin-bottom: 50px;
+    }
+}
+
+.col {
+    list-style-type: none;
+    margin: 0 15px;
+
+    .icon {
+        width: 40px;
+        padding: 6px;
+        opacity: 70%;
+    }
+
+    @media only screen and (max-width: 740px) {
+        .icon {
+            width: 35px;
+        }
+    }
+
+    .icon:hover {
+        opacity: 100%;
+    }
+}
+
+

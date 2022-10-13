@@ -1,0 +1,55 @@
+.card {
+    cursor: pointer;
+    width: 100%;
+}
+
+.date, .company, .position, .logo, .card-txt {
+    font-family: "Montserrat";
+    color: black;
+}
+
+.date {
+    font-weight: 550;
+    margin-bottom: 5px;
+    opacity: 80%;
+}
+
+.company {
+    font-weight: 550;
+    opacity: 80%;
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+.position {
+    font-weight: 550;
+    font-size: 17px;
+    opacity: 80%;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 23px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.card-txt {
+    font-weight: 450;
+    opacity: 92%;
+}
+
+@media only screen and (max-width: 500px) {
+    .company {
+        font-size: 18px;
+    }
+    .position {
+        font-size: 14px;
+    }
+    .logo {
+        width: 18px;
+    }
+    .card-txt {
+        font-size: 14px;
+    }
+}
