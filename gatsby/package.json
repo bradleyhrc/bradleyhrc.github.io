@@ -2,6 +2,7 @@
   "name": "gatsby",
   "version": "5.0.0",
   "private": true,
+  "homepage": "https://www.bradleyhc.com",
   "browserslist": [
     ">0.25%",
     "not dead"
@@ -14,6 +15,7 @@
     "@mui/joy": "^5.0.0-alpha.48",
     "@mui/material": "latest",
     "gatsby": "latest",
+    "gatsby-plugin-manifest": "^4.24.0",
     "gatsby-plugin-react-helmet": "latest",
     "gatsby-plugin-sass": "^5.24.0",
     "gatsby-plugin-smoothscroll": "^1.2.0",

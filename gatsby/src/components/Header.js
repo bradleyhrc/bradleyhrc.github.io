@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Link from './Link';
 import VerticalLinks from '../components/VerticalLinks';
+import Typography from '@mui/material/Typography';
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
                     Math enthusiast. People oriented. Curiously into tech.
                 </span>
             </div>
-            <Link href="#about" className="button" underline="none">My resume.</Link>
+            <Link href="/resume" className="button" underline="none">My resume.</Link>
         </div>
         <VerticalLinks></VerticalLinks>
       </div>

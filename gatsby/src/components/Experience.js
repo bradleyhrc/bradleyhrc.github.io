@@ -12,7 +12,6 @@ const Experience = () => {
                     <span className="underline1">Experience.</span>
                 </div>
                 <Grid container justifyContent="flex-start" alignItems="stretch" columnSpacing={3} rowSpacing={3}>
-                    
                     {data.history.map((job, index) =>
                         <Grid item xs={12} sm={6} lg={3} key={index}>
                         <ExpCard

@@ -39,4 +39,37 @@
 
 .portfolio:hover, .about:hover, .experience:hover {
     opacity: 90%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 740px) {
+    .nav-wrap {
+        font-size: 14px;
+        height: 50px;
+    }
+    .logo {
+        font-size: 16px;
+    }
+    .portfolio {
+        padding: 0 5px 0 15px;
+    }
+    .about, .experience {
+        padding: 0 15px 0 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-wrap {
+        font-size: 12px;
+        height: 40px;
+    }
+    .logo {
+        font-size: 14px;
+    }
+    .portfolio {
+        padding: 0 3px 0 10px;
+    }
+    .about, .experience {
+        padding: 0 10px 0 10px;
+    }
 }
