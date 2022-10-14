@@ -49,7 +49,7 @@ export default {
         },
         {
             title: "Glucose Visualization Dashboard",
-            skills: ["Python", "Pandas", "Panel", "Jupyter", "Heroku"],
+            skills: ["Python", "Pandas", "Panel", "Jupyter"],
             description: "Created an interactive dashboard visualizing glucose health data. Automated data processing and built in a Jupyter notebook.",
             link: "https://github.com/bradleyhrc/glucose-dashboard",
             screenshot: project2,

@@ -11,7 +11,7 @@ const Header = () => {
             <div className="last-name">Herrera Contreras</div>
             <div className="description">
                 <span className="underline">
-                    Math enthusiast. People oriented. Curiously into tech.
+                    Math enthusiast. People oriented. Driven by curiosity.
                 </span>
             </div>
             <Link href="/resume" className="button" underline="none">My resume.</Link>
