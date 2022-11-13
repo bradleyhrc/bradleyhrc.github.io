@@ -32,7 +32,7 @@ export default function ExpCard(props) {
     <Card className="card"  onClick={handleExpandClick}>
       <CardContent>
         <Typography className="date" variant="body2" color="text.secondary">
-          May - Aug. 2022
+          {props.date}
         </Typography>
 
         <Typography className="company" variant="h5" component="div">

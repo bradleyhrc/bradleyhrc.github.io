@@ -20,6 +20,7 @@ const Experience = () => {
                             position={job.position}
                             preview={job.preview}
                             description={job.description}
+                            date={job.date}
                         />
                         </Grid>)
                     }
