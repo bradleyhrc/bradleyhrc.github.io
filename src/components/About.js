@@ -1,32 +1,35 @@
-import * as React from 'react';
-import Container from '@mui/material/Container';
-import Grid from "@mui/material/Grid";
-import profile from '../images/bradleyhc.headshot.jpg';
+import styled from "styled-components";
+
+import Underline from './base/Underline';
 
 const About = () => {
-    return (
-        <Container maxWidth="lg" id="about">
-            <Grid container justifyContent="center" direction={{md: "row-reverse", lg:"row-reverse"}} alignItems="stretch" spacing={2}>
-                <Grid className="image" item xs={9} sm={8} md lg>
-                    <div className="other-image">
-                        <img className="meow" src={profile} alt="Portrait"></img>
-                    </div>
-                </Grid>
-                <Grid item xs={12} sm={12} md={7} lg={8}>
-                    <div className="about-content">
-                        <div className="subtitle"><span className="underline1">About me.</span></div>
-                        <div className="text">Thank you for visiting my website! Let me tell you more about myself.<br></br>I am...</div>
-                        <ul>
-                            <li className="text">Studying <b>Computer Science</b> at the University of Waterloo & <b>Business Administration</b> at Wilfrid Laurier University.</li>
-                            <li className="text">The <b>Lead Developer</b> on the Data Science Club, where I get to work on creating cool new projects to support our community.</li>
-                            <li className="text">Trilingual – I speak English, French, and Spanish all fluently!</li>
-                            <li className="text">Inspired to contribute my skills and work for social good.</li>
-                        </ul>
-                    </div>
-                </Grid>
-            </Grid>
-        </Container>
-    )
-}
+  return (
+    <AboutWrapper>
+      <Subtitle>
+        <Underline>
+        About me.
+        </Underline>
+      </Subtitle>
+      I'm a Computer Science and Business Double-Degree student at the University of Waterloo and Wilfrid Laurier.
+      As a curious person, I like to self-study new math problems and how we solve can solve them using modern computers.
+      <br></br>
+      <br></br>
+      One thing I love about my program is that I also get the chance to learn all about how to run a business, deliver business recommendations, and solve real-world problems in different industries!
+      <br></br>
+      <br></br>
+      I'm also always looking for opportunities to help and work with others in my community. I'm involved in leadership positions on-campus, and recently much of my time is spent organizing the Hack the North 2023 event this September! 
+    </AboutWrapper>
+  );
+};
 
 export default About;
+
+const AboutWrapper = styled.div`
+  margin-top: 20px;
+`;
+
+const Subtitle = styled.h3`
+  font-size: 1.8rem;
+  width: fit-content;
+  margin-bottom: 0.5rem;
+`;

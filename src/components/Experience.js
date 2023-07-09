@@ -1,34 +1,44 @@
-import * as React from 'react';
-import Container from '@mui/material/Container';
-import Grid from "@mui/material/Grid";
-import ExpCard from './ExpCard';
-import data from '../../exp-data';
+import styled from "styled-components";
+
+import Underline from './base/Underline';
+import Item from './Item';
+
+import data from '../exp-data';
 
 const Experience = () => {
-    return (
-        <Container maxWidth="lg">
-            <div className="exp-wrap" id="experience">
-                <div className="subtitle" id="exp1">
-                    <span className="underline1">Experience.</span>
-                </div>
-                <Grid container justifyContent="flex-start" alignItems="stretch" columnSpacing={3} rowSpacing={3}>
-                    {data.history.map((job, index) =>
-                        <Grid item xs={12} sm={6} lg={3} key={index}>
-                        <ExpCard
-                            company={job.company}
-                            logoImgUrl={job.logo}
-                            position={job.position}
-                            preview={job.preview}
-                            description={job.description}
-                            date={job.date}
-                        />
-                        </Grid>)
-                    }
-                    
-                </Grid>
-            </div>
-        </Container>
-    )
-}
+  return (
+    <ExpWrapper>
+      <Subtitle>
+        <Underline>
+        Experience.
+        </Underline>
+      </Subtitle>
+      <Grid>
+        {
+          data.exp.map((item, index) => <Item {...item} key={index} />)
+        }
+      </Grid>
+    </ExpWrapper>
+  );
+};
 
 export default Experience;
+
+const Grid = styled.div`
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  @media (max-width: 690px) {
+    grid-template-columns: repeat(1,minmax(0,1fr));
+  }
+`;
+
+const ExpWrapper = styled.div`
+  margin-top: 20px;
+`;
+
+const Subtitle = styled.h3`
+  font-size: 1.8rem;
+  width: fit-content;
+  margin-bottom: 0.5rem;
+`;
