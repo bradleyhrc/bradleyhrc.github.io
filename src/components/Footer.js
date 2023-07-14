@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Footer = () => {
   return (
     <FooterWrapper>
-      Bradley HC. 2023
+      &#169; Bradley HC. 2023
     </FooterWrapper>
   );
 };
