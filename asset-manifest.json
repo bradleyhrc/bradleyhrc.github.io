@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d4abdc6.css",
+    "main.js": "/static/js/main.0e674d86.js",
+    "static/js/787.329e97a0.chunk.js": "/static/js/787.329e97a0.chunk.js",
+    "static/media/headshot.jpg": "/static/media/headshot.60b207f855fd9d76d10c.jpg",
+    "static/media/cafe.jpeg": "/static/media/cafe.114ed28fcabd17b248da.jpeg",
+    "static/media/leaves.jpeg": "/static/media/leaves.e624b80fe574aa411657.jpeg",
+    "static/media/htn.png": "/static/media/htn.a09b25df24fb0b3e8cbb.png",
+    "static/media/desjardins.jpg": "/static/media/desjardins.5d678104ee0ee91c6a88.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/github.svg": "/static/media/github.fd36344637eada34608b8af1bd313332.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.1634cd04ebaaa2732135467f9f94c8f8.svg",
+    "index.html": "/index.html",
+    "static/media/mail.svg": "/static/media/mail.26c172819b291d16c743c381a24e6b76.svg",
+    "main.7d4abdc6.css.map": "/static/css/main.7d4abdc6.css.map",
+    "main.0e674d86.js.map": "/static/js/main.0e674d86.js.map",
+    "787.329e97a0.chunk.js.map": "/static/js/787.329e97a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d4abdc6.css",
+    "static/js/main.0e674d86.js"
+  ]
+}
