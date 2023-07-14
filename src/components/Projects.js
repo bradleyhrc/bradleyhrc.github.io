@@ -1,33 +1,40 @@
-import * as React from 'react';
-import Container from '@mui/material/Container';
-import Grid from "@mui/material/Grid";
-import ProjectCard from './ProjectCard';
-import data from '../../exp-data';
+import styled from "styled-components";
+
+import Underline from './base/Underline';
+import data from '../exp-data';
 
 const Projects = () => {
-    return (
-        <Container maxWidth="lg" id="projects">
-            <div className="exp-wrap" id="experience">
-                <div className="subtitle" id="exp1">
-                    <span className="underline1">Projects.</span>
-                </div>
-                <Grid container justifyContent="flex-start" alignItems="stretch" spacing={3}>
-                    {data.portfolio.map((project, index) =>
-                        <Grid item xs={12} sm={12} md={6} lg={4} key={index}>
-                        <ProjectCard
-                            link={project.link}
-                            title={project.title}
-                            description={project.description}
-                            screenshot={project.screenshot}
-                            skills={project.skills}
-                        />
-                        </Grid>)
-                    }
-                    
-                </Grid>
-            </div>
-        </Container>
-    )
-}
+  return (
+    <ProjWrapper>
+      <Subtitle>
+        <Underline>
+        Projects.
+        </Underline>
+      </Subtitle>
+      <Grid>
+        
+      </Grid>
+    </ProjWrapper>
+  );
+};
 
 export default Projects;
+
+const Grid = styled.div`
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  @media (max-width: 690px) {
+    grid-template-columns: repeat(1,minmax(0,1fr));
+  }
+`;
+
+const ProjWrapper = styled.div`
+  margin-top: 20px;
+`;
+
+const Subtitle = styled.h3`
+  font-size: 1.8rem;
+  width: fit-content;
+  margin-bottom: 0.5rem;
+`;
