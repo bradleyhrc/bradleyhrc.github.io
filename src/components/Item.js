@@ -85,7 +85,6 @@ const InWrap = styled.div`
   flex-direction: column;
   padding: 0.6rem 1.5rem 0rem 1.5rem;
   height: 100%;
-
 `;
 
 const Pic = styled.img`

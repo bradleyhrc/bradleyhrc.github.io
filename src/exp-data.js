@@ -60,4 +60,34 @@ export default {
       descr: "&#128202; Exploratory data analysis on big data",
     },
   ],
+  projects: [
+    {
+      img: htn,
+      title: "Explore the STEM Gender Gap",
+      descr: "A visual scroll article on the gender gap through research and data",
+      skills: ["React", "TypeScript", "D3.js"],
+      link: "https://www.bradleyhc.com/explore-the-stem-gender-gap/",
+    },
+    {
+      img: htn,
+      title: "Hack the North 2023",
+      descr: "This year's website and hacker applications page serving 1,000+ hackers",
+      skills: ["React", "TypeScript", "JavaScript", "GraphQL"],
+      link: "https://hackthenorth.com/",
+    },
+    {
+      img: htn,
+      title: "Glucose Visualization Dashboard",
+      descr: "Fully interactive dashboard for glucose analytics",
+      skills: ["Python", "Pandas", "Jupyter", "Heroku"],
+      link: "https://github.com/bradleyhrc/glucose-dashboard",
+    },
+    {
+      img: htn,
+      title: "Waterloo Data Science Club Website",
+      descr: "Led a team of 5 to create our page and boost student engagement",
+      skills: ["JavaScript", "React", "Next.js", "Material UI"],
+      link: "https://github.com/uw-datasci/uwdsc-website",
+    },
+  ],
 };
